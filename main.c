@@ -12,7 +12,7 @@
   return EXIT_FAILURE; \
 } while(0)
 
-// Save HBITMAP → BMP file
+// Save HBITMAP -> BMP file
 int save(HBITMAP hBitmap, HDC hDC, const wchar_t *filename) {
     BITMAP bmp;
     GetObject(hBitmap, sizeof(bmp), &bmp);
